@@ -24,4 +24,4 @@ def mostrar(valor):
 
 @app.route('/redireccionar')
 def redireccionar():
-    return redirect(url_for('inicio'))
+    return redirect(url_for('mostrar', valor='Pablo'))
